@@ -266,9 +266,24 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 800px;
   padding: 20px 10px;
   margin: 0 auto;
+}
+
+.left-side{
+  display: inline-block;
+  position: relative;
+  max-width: 500px;
+  padding: 20px 10px;
+
+}
+
+.right-side{
+  display: block;
+  position: absolute;
+  top:80px;
+  right: 5px;
 }
 
 #forkme_banner {

@@ -1,97 +1,67 @@
-html{
-  height: 100%;
+* {
+  margin: 0px;
+  padding: 0px;
+  /* border: 1px solid black; */
 }
-
-h2, h3, h4, h5, h6 {
-  margin: 10px 0;
-  font-weight: 700;
-  color:#373737;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
-  letter-spacing: -1px;
+html {
+  height: 100%; width: 100%;
 }
+body {
+  background-color: rgb(51, 51, 51);
+  background: -webkit-linear-gradient(-45deg, rgb(51, 51, 51), rgb(0,0,0));
+  background: linear-gradient(-45deg, rgb(51, 51, 51), rgb(0,0,0));
 
-body{
-  background: #212121;
-  color: #fff;
-  min-height: 100%;
-  font-size: 16px;
-  font-family: 'Myriad Pro', 'Calibri', Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+  color: rgb(179, 89, 0);
 }
+img {
+  hight: 200px; width: 200px;
 
-section{
-  float:left;
-  width: 75%;
-  padding: 20px 10px;
-  color:#000;
-  background: #fff;
-  margin-bottom: 50px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
 }
-
-aside{
-  float:right;
-  width: 20%;
-  overflow: hidden;
-  color:#000;
-  background: #fff;
+p, table {
+  margin: 20px;
+  padding: 0px 10px;
 }
-
-table{
-  padding: 1px;
+a, a:visited {
+  color: rgb(255, 128, 0);
 }
-
-header{
-  width: 100%;
-  margin: 0 auto;
-  padding: 10px;
-  padding-bottom: 40px;
+article {
+  width: 700px;
+  margin: 20px auto;
 }
-
+section {
+  font-family: 'Alegreya Sans', sans-serif;
+}
 footer {
-  position: fixed;
-  width: 100%;
-  bottom: 0; left: 0;
-  background: #212121;
-  color: #fff;
-  margin: 0;
-  text-align: center;
-}
-
-#side_menu{
-  font-weight: bold;
-  font-size: 110%;
-  color: #373737;
-}
-
-#project_title{
-  font-family: 'Myriad Pro', 'Tahoma', Helvetica, Arial, sans-serif;
-  font-size: 200%;
-  padding-left: 150px;
-}
-
-#project_tagline{
-  font-family: 'Myriad Pro', 'Tahoma', Helvetica, Arial, sans-serif;
-  font-size: 110%;
-  padding-left: 150px;
-}
-#finite_logo {
+  height: 40px; width: 100%;
   position: absolute;
-  top: 10px; left: 10px;
-  width:150px;
-  height:100px;"
+  bottom: 0;
 }
-#forkme_banner {
-  display: block;
-  position: absolute;
-  top:0;
-  right: 10px;
-  z-index: 10;
-  padding: 10px 50px 10px 10px;
-  color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
-  font-weight: 700;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
+
+#logo {
+  height: 150px; width: 400px;
+  margin: 40px auto;
+}
+#navigation {
+  height: 40px; width: 500px;
+  margin: 0 auto;
+}
+#foot {
+  padding: 10px 30px;
+}
+
+.nav-item {
+  height: 20px; width: 100px;
+
+  background-color: rgb(179, 89, 0);
+  border: 1px solid black;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+.nav-item:hover {
+  background-color: rgb(102, 51, 0);
 }

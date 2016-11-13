@@ -1,24 +1,30 @@
-html, body, img, p, table, a, footer, section {
+/*
+* {
+  border: solid 1px black;
+}
+*/
+
+html, body, header, img, p, table, a, section, article, footer, h1, h2 {
   margin: 0px;
   padding: 0px;
 }
 
-
 html {
   height: 100%;
-  background-color: rgb(51, 51, 51);
-  background: -webkit-linear-gradient(-45deg, rgb(51, 51, 51), rgb(0,0,0));
-  background: linear-gradient(-45deg, rgb(51, 51, 51), rgb(0,0,0));
 }
+
 body {
-  color: rgb(179, 89, 0);
-  padding-bottom: 40px;
   position: relative;
   margin: 0px;
+  min-height: 100%;
+}
+
+header {
+  background: rgb(51, 51, 51);
 }
 img {
   height: 170px; width: 200px;
-
+  margin: 20px;
   border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -28,46 +34,46 @@ p, table {
   padding: 0px 10px;
 }
 a, a:visited {
-  color: rgb(255, 128, 0);
+  color: rgb(0, 0, 0);
 }
 article {
   width: 700px;
   margin: 20px auto;
-  padding: 20px;
+  padding: 20px 0;
 }
 section {
   font-family: 'Alegreya Sans', sans-serif;
 }
 footer {
+  background: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
   height: 40px; width: 100%;
   position: absolute;
-  right: 0;
   bottom: 0;
-  left: 0;
 }
 
 #logo {
-  height: 150px; width: 400px;
-  margin: 40px auto;
+  margin: 0 auto;
 }
 #navigation {
-  height: 40px; width: 500px;
+  height: 40px; width: 600px;
   margin: 0 auto;
 }
 #foot {
   padding: 10px 30px;
+  margin: 0px;
 }
 
 .nav-item {
   height: 20px; width: 100px;
 
-  background-color: rgb(179, 89, 0);
-  border: 1px solid black;
+  background-color: rgb(51, 51, 51);
+  border: 1px solid rgb(255, 255, 255);
   color: rgb(255, 255, 255);
   display: inline-block;
   padding: 5px;
   margin: 5px;
 }
 .nav-item:hover {
-  background-color: rgb(102, 51, 0);
+  background-color: rgb(100, 100, 100);
 }
